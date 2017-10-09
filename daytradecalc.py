@@ -1,6 +1,6 @@
 cur = float(input("Initial Investment: "))
 
-dailyPercent = float(input("Percent increase per Day: "))
+dailyPercent = float(input("Percent increase per Day: "))/100
 days = int(input("How many days: "))
 
 for x in range(days):
